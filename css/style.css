@@ -8,14 +8,6 @@
   --baner-bcg-color: #2f303a;
   --gray-bcg-color: #f5f4fa;
 }
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 
 body {
   color: var(--title-color);
@@ -27,8 +19,18 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid purple;
+}
 /*header*/
+.page-header {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /*logo*/
 .logo-web {
   color: var(--akcent-color);
@@ -47,6 +49,8 @@ body {
 /*site-nav*/
 .list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 .site-nav .link {
@@ -91,8 +95,11 @@ body {
 /*style fo rposter section*/
 .poster-section {
   /*poster style*/
+  margin-top: 0px;
+  margin-bottom: 69px;
   color: var(--white);
   background: var(--baner-bcg-color);
+  outline: 1px solid yellow;
 
   font-weight: 900;
   font-size: 44px;
@@ -115,12 +122,19 @@ body {
 }
 
 /*style for advantage section*/
+.list-advantage {
+  margin-top: 0px;
+}
 .list-advantage .title {
+  margin-top: 0px;
   line-height: 1.15;
   text-transform: uppercase;
   list-style: none;
 }
-
+.section-advantage {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .section-advantage p {
   color: var(---text-color);
   font-weight: 400;
