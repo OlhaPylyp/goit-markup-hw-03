@@ -8,6 +8,14 @@
   --baner-bcg-color: #2f303a;
   --gray-bcg-color: #f5f4fa;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 body {
   color: var(--title-color);
