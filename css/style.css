@@ -1,0 +1,221 @@
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --white: #ffffff;
+  --akcent-color: #2196f3;
+  --link-color: rgba(255, 255, 255, 0.6);
+  --logo2-color: #000000;
+  --baner-bcg-color: #2f303a;
+  --gray-bcg-color: #f5f4fa;
+}
+
+body {
+  color: var(--title-color);
+  background-color: var(--white);
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/*header*/
+/*logo*/
+.logo-web {
+  color: var(--akcent-color);
+
+  font-family: Raleway, sans-serif;
+}
+.logo {
+  color: var(--logo2-color);
+  text-decoration: none;
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+/*site-nav*/
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-color);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link-act {
+  color: var(--akcent-color);
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.site-nav a:active {
+  color: var(--akcent-color);
+}
+/* adress header*/
+/*link style*/
+
+.site-adr a {
+  color: var(--text-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-adr a:hover,
+.site-adr a:focus,
+.site-adr a:active {
+  color: var(--akcent-color);
+  cursor: pointer;
+}
+
+/*main*/
+/*style fo rposter section*/
+.poster-section {
+  /*poster style*/
+  color: var(--white);
+  background: var(--baner-bcg-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+}
+/*button style poster section*/
+.button {
+  background: var(--akcent-color);
+  color: var(--white);
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.9;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/*style for advantage section*/
+.list-advantage .title {
+  line-height: 1.15;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.section-advantage p {
+  color: var(---text-color);
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+/*style for title*/
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/*style for чем мы занимаемся*/
+
+/*style for command*/
+.command-section {
+  background: var(--gray-bcg-color);
+}
+
+.command-section .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.decor {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.command-section p {
+  color: var(---text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/*footer*/
+.foter {
+  background: var(--baner-bcg-color);
+  font-weight: 400;
+  line-height: 1.7;
+}
+.logo-foter {
+  color: var(--white);
+  text-decoration: none;
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.adress p {
+  color: var(--white);
+  font-style: normal;
+}
+.adress a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-style: normal;
+}
+.adress a:hover,
+.adress a:focus {
+  color: var(--akcent-color);
+  cursor: pointer;
+}
+
+/*style for portfolio*/
+/*title portfolio*/
+
+/*style for button portfolio*/
+.button-portfolio {
+  color: var(--title-color);
+  background: var(--gray-bcg-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--white);
+  background: var(--akcent-color);
+  cursor: pointer;
+}
+
+/*portfolio service*/
+.list-service a {
+  text-decoration: none;
+}
+
+.list-service h2 {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.15;
+}
+.list-service p {
+  color: var(--text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
