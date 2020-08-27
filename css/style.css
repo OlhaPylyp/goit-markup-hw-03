@@ -20,24 +20,35 @@ body {
   letter-spacing: 0.03em;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid purple;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 2px solid yellowgreen;
 }
-/*header*/
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+/*header
 .page-header {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+}*/
 /*logo*/
+.flexbox {
+  display: flex;
+}
 .logo-web {
   color: var(--akcent-color);
 
   font-family: Raleway, sans-serif;
 }
 .logo {
+  margin-right: 93px;
   color: var(--logo2-color);
   text-decoration: none;
 
@@ -45,15 +56,31 @@ body {
   font-size: 26px;
   line-height: 1.2;
 }
-
-/*site-nav*/
-.list {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
+.page-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
+.page-header .flexbox {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*site-nav*/
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  margin-left: 0px;
+}
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-color);
   text-decoration: none;
   cursor: pointer;
@@ -62,9 +89,15 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link-act {
+.site-nav .active {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--akcent-color);
   text-decoration: none;
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .site-nav a:hover,
@@ -74,6 +107,13 @@ body {
 }
 /* adress header*/
 /*link style*/
+.site-adr {
+  display: flex;
+  margin-left: auto;
+}
+.site-adr .item:not(:last-child) {
+  margin-right: 50px;
+}
 
 .site-adr a {
   color: var(--text-color);
@@ -95,11 +135,12 @@ body {
 /*style fo rposter section*/
 .poster-section {
   /*poster style*/
-  margin-top: 0px;
-  margin-bottom: 69px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
   color: var(--white);
   background: var(--baner-bcg-color);
-  outline: 1px solid yellow;
+  outline: 1px solid red;
 
   font-weight: 900;
   font-size: 44px;
@@ -108,7 +149,12 @@ body {
   letter-spacing: 0.06em;
 }
 /*button style poster section*/
+.poster-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
 .button {
+  padding: 10px 32px;
   background: var(--akcent-color);
   color: var(--white);
 
@@ -133,10 +179,11 @@ body {
 }
 .section-advantage {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 94px;
 }
 .section-advantage p {
   color: var(---text-color);
+
   font-weight: 400;
   line-height: 1.7;
 }
