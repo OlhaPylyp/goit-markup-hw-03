@@ -32,6 +32,7 @@ body {
   padding: 0px;
   margin: 0px;
 }
+
 /*header
 .page-header {
   width: 1200px;
@@ -42,6 +43,21 @@ body {
 .flexbox {
   display: flex;
 }
+/*style for section*/
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/*style for title*/
+.section-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .logo-web {
   color: var(--akcent-color);
 
@@ -63,7 +79,6 @@ body {
 }
 
 .page-header .flexbox {
-  justify-content: flex-start;
   align-items: center;
 }
 
@@ -76,8 +91,8 @@ body {
   display: flex;
   margin-left: 0px;
 }
+
 .site-nav .link {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -107,6 +122,8 @@ body {
 .site-adr {
   display: flex;
   margin-left: auto;
+  letter-spacing: 0.02em;
+  border: none;
 }
 .site-adr .item:not(:last-child) {
   margin-right: 50px;
@@ -169,40 +186,66 @@ body {
 }
 
 /*style for advantage section*/
-.list-advantage {
-  margin-top: 0px;
+
+.advantage-title {
+  display: none;
 }
+.list-advantage {
+  flex-wrap: wrap;
+  /* margin-top: 0px;
+  margin-bottom: 0px; */
+}
+.item-advantage {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+}
+
+.item-advantage:nth-child(4n) {
+  margin-right: 0px;
+}
+
 .list-advantage .title {
   margin-top: 0px;
+  margin-bottom: 10px;
   line-height: 1.15;
   text-transform: uppercase;
   list-style: none;
 }
-.section-advantage {
-  margin-top: 0px;
-  margin-bottom: 94px;
-}
-.section-advantage p {
+
+.paragraph-adv {
   color: var(---text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
 
   font-weight: 400;
   line-height: 1.7;
 }
 
-/*style for title*/
-.section-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
 /*style for чем мы занимаемся*/
+.work-list {
+  flex-wrap: flex;
+}
+.work-list .item:nth-child(3n) {
+  margin-right: 0px;
+}
+.work-list .item {
+  width: calc((100% - 30px * 2) / 3);
+  margin-right: 30px;
+}
 
 /*style for command*/
-.command-section {
+.command {
   background: var(--gray-bcg-color);
 }
+.item-command:nth-child(4n) {
+  margin-bottom: 0px;
+}
+.item-command {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+}
 
-.command-section .title {
+.command .title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -211,7 +254,7 @@ body {
 .decor {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.command-section p {
+.comand-list p {
   color: var(---text-color);
   font-weight: 400;
   font-size: 16px;
@@ -268,6 +311,21 @@ body {
   color: var(--white);
   background: var(--akcent-color);
   cursor: pointer;
+}
+/*grid for servse list*/
+
+.list-service {
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.item-servise {
+  width: calc((100%-30px * 2) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.item-servise:nth-child(3n) {
+  margin-right: 0px;
 }
 
 /*portfolio service*/
