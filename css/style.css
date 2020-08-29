@@ -37,6 +37,11 @@ body {
   padding: 0px;
   margin: 0px;
 }
+.link:hover,
+.link:focus,
+.link:active {
+  color: var(--akcent-color);
+}
 
 /*header
 .page-header {
@@ -117,11 +122,6 @@ body {
   margin-right: 50px;
 }
 
-.site-nav a:hover,
-.site-nav a:focus,
-.site-nav a:active {
-  color: var(--akcent-color);
-}
 /* adress header*/
 /*link style*/
 .site-adr {
@@ -275,13 +275,13 @@ body {
   text-align: center;
 }
 /*footer*/
-.foter {
+.page-foter {
   background: var(--baner-bcg-color);
   font-weight: 400;
   line-height: 1.7;
 }
 /* описываем контейнер контактов в футере, задаю верхний и нижний падинги*/
-.footer-conteiner {
+.foter-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -295,19 +295,22 @@ body {
   font-size: 26px;
   line-height: 1.2;
 }
-.footer-conteiner .item {
-  display: block;
+.asdress {
+  display: flex;
+  flex-direction: column;
 }
+.foter-container .footer-link {
+  margin-top: 9px;
+  margin-bottom: 0px;
+}
+.adress .paragraph {
+  margin-top: 0;
 
-.item-adress {
-  margin-top: 0px;
-  margin-bottom: 9px;
-}
-.adress p {
   color: var(--white);
   font-style: normal;
 }
 .adress a {
+  display: block;
   color: var(--link-color);
   text-decoration: none;
   font-style: normal;
