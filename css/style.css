@@ -37,12 +37,12 @@ body {
   padding: 0px;
   margin: 0px;
 }
-.link:hover,
-.link:focus,
-.link:active {
+.item .link:hover,
+.item .link:focus,
+.item .link:active {
   color: var(--akcent-color);
+  cursor: pointer;
 }
-
 /*header
 .page-header {
   width: 1200px;
@@ -141,13 +141,6 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.site-adr a:hover,
-.site-adr a:focus,
-.site-adr a:active {
-  color: var(--akcent-color);
-  cursor: pointer;
 }
 
 /*main*/
@@ -327,6 +320,7 @@ body {
 /*style for button portfolio*/
 .list-button {
   justify-content: center;
+  padding-bottom: 50px;
 }
 .item-btn:not(:last-child) {
   margin-right: 8px;
@@ -357,7 +351,6 @@ body {
 
 .list-service {
   flex-wrap: wrap;
-  padding-top: 50px;
 }
 .item-servise {
   width: calc((100% - 30px * 2) / 3);
@@ -374,14 +367,20 @@ body {
   text-decoration: none;
 }
 
-.list-service h2 {
+.title-service {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  padding: 0px 24px;
+
   color: var(--title-color);
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
-  line-height: 1.15;
+  line-height: 2;
 }
-.list-service p {
+.list-service .text {
+  margin: 0px;
+
   color: var(--text-color);
 
   font-weight: 400;
