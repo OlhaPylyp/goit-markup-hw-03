@@ -25,7 +25,6 @@ body {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid yellowgreen;
 }
 .img {
   display: block;
@@ -64,7 +63,7 @@ body {
   margin-top: 0px;
   margin-bottom: 50px;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -301,17 +300,18 @@ body {
   color: var(--white);
   font-style: normal;
 }
-.adress a {
+.adress .link {
   display: block;
   color: var(--link-color);
   text-decoration: none;
   font-style: normal;
-/* }
-.adress a:hover,
-.adress a:focus {
+}
+
+.adress .link:hover,
+.adress .link:focus {
   color: var(--akcent-color);
   cursor: pointer;
-} */
+}
 
 /*style for portfolio*
 /*title portfolio*/
