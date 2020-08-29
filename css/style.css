@@ -321,11 +321,21 @@ body {
   cursor: pointer;
 }
 
-/*style for portfolio*/
+/*style for portfolio*
 /*title portfolio*/
 
 /*style for button portfolio*/
+.list-button {
+  justify-content: center;
+}
+.item-btn:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* position for button portfolio*/
+
 .button-portfolio {
+  padding: 6px 22px;
   color: var(--title-color);
   background: var(--gray-bcg-color);
 
@@ -350,7 +360,7 @@ body {
   padding-top: 50px;
 }
 .item-servise {
-  width: calc((100%-30px * 2) / 3);
+  width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
