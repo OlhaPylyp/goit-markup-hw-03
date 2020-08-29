@@ -289,7 +289,6 @@ body {
   line-height: 1.2;
 }
 .asdress {
-  display: flex;
   flex-direction: column;
 }
 .foter-container .footer-link {
@@ -307,12 +306,12 @@ body {
   color: var(--link-color);
   text-decoration: none;
   font-style: normal;
-}
+/* }
 .adress a:hover,
 .adress a:focus {
   color: var(--akcent-color);
   cursor: pointer;
-}
+} */
 
 /*style for portfolio*
 /*title portfolio*/
