@@ -27,7 +27,7 @@ body {
   margin-left: auto;
   outline: 2px solid yellowgreen;
 }
-img {
+.img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -280,13 +280,28 @@ img {
   font-weight: 400;
   line-height: 1.7;
 }
+/* описываем контейнер контактов в футере, задаю верхний и нижний падинги*/
+.footer-conteiner {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .logo-foter {
+  display: inline-block;
+  margin-bottom: 20px;
   color: var(--white);
   text-decoration: none;
 
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
+}
+.footer-conteiner .item {
+  display: block;
+}
+
+.item-adress {
+  margin-top: 0px;
+  margin-bottom: 9px;
 }
 .adress p {
   color: var(--white);
