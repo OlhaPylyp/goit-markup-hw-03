@@ -154,11 +154,6 @@ body {
   text-align: center;
   color: var(--white);
   background: var(--baner-bcg-color);
-
-  background-image: url(/imgportfolio/Img.jpg);
-
-  object-fit: fill;
-
   text-align: center;
 }
 /*button style poster section*/
@@ -303,7 +298,7 @@ body {
   margin-bottom: 0px;
 }
 .adress .paragraph {
-  margin: 0px;
+  margin-bottom: 0px;
 
   color: var(--white);
   font-style: normal;
