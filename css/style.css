@@ -365,6 +365,7 @@ body {
 .item-servise {
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
+  margin-left: 0px;
   margin-bottom: 30px;
 
   border: 1px solid var(--border-portfolio);
