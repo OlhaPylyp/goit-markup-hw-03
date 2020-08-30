@@ -7,6 +7,8 @@
   --logo2-color: #000000;
   --baner-bcg-color: #2f303a;
   --gray-bcg-color: #f5f4fa;
+  --border-header: #ececec;
+  --border-portfolio: #eeeeee;
 }
 
 body {
@@ -84,7 +86,7 @@ body {
 .page-header {
   padding-top: 25px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid color(--border-header);
 }
 
 .page-header .flexbox {
@@ -360,6 +362,7 @@ body {
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid var(--border-portfolio);
 }
 
 .item-servise:nth-child(3n) {
