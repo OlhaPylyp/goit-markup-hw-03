@@ -144,6 +144,7 @@ body {
 
 /*main*/
 /*style fo rposter section*/
+
 .poster-section {
   /*poster style*/
   padding-top: 200px;
@@ -151,6 +152,10 @@ body {
   text-align: center;
   color: var(--white);
   background: var(--baner-bcg-color);
+
+  background-image: url(/imgportfolio/Img.jpg);
+
+  object-fit: fill;
 
   text-align: center;
 }
@@ -211,7 +216,7 @@ body {
 }
 
 .paragraph-adv {
-  color: var(---text-color);
+  color: var(--text-color);
   margin-top: 0px;
   margin-bottom: 0px;
 
