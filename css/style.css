@@ -83,7 +83,6 @@ body {
 }
 .page-header {
   padding: 25px 0;
-  padding-bottom: 25px;
   border-bottom: 1px solid var(--border-header);
 }
 
@@ -286,8 +285,7 @@ body {
 }
 /* описываем контейнер контактов в футере, задаю верхний и нижний падинги*/
 .foter-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 .logo-foter {
   display: inline-block;
